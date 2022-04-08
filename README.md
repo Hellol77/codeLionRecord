@@ -80,3 +80,40 @@ font-family:"...";
 
 }
 
+---
+
+### About Me 제작하기
+
+font-style: italic; //기울이기
+
+border-bottom : 아래 border
+
+margin-bottom : 아래 margin
+
+---
+
+### experience 제작하기
+
+line-height: 폰트 크기의 160%가 제일 좋다고 알려져 있다.
+
+float : 둥둥 떠다니다 right, left 좌우 정렬
+
+---
+
+### 뗏목 띄우기
+
+overflow : hidden; 다른 요소들과 겹쳐지지 않는다
+
+---
+
+### 이력서 완성하기
+
+img src="..." 이미지 표현
+
+a href="..." 클릭했을때 링크로 들어간다
+
+### '나만의 이력서' 정리하기
+
+
+
+
