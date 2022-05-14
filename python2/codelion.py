@@ -1,27 +1,15 @@
+from bs4 import BeautifulSoup
 import requests
 
-url = "http://www.daum.net"
+url = "http://www.daum.net/"
 response = requests.get(url)
+soup = BeautifulSoup(response.text ,'html.parser', from_encoding='utf-8')
 
-import requests
+file = open("daum.html","w",encoding="UTF-8")
+file.write(response.text)
+file.close()
 
-url = "http://www.daum.net"
-response = requests.get(url)
-
-# print(response.text)
-
-# print(response.url)
-
-# print(response.content)
-
-print(response.encoding)
-
-# print(response.headers)
-
-# print(response.json)
-
-# print(response.links)
-
-# print(response.ok)
-
-# print(response.status_code)
+print(soup.title)
+print(soup.title.string)
+print(soup.span)
+print(soup.findAll('span'))
