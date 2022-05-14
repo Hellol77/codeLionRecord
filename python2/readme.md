@@ -28,10 +28,47 @@ headers : 우린 로봇이 아니야 알려주는
 
 headers=headers
 
-
+---
 
 API = application programming interface
 
 api를 사용한다 :  누군가 만들어 놓은 기능을 사용한다.
 
 api key : 누가 사용하는지 전달해주는 원하는 데이터 얻을 수 있게
+
+---
+
+gooletrans 라이브러리 : 언어 감지 및 번역
+
+
+언어감지
+
+1. 번역기를 만든다
+
+2. 언어감지를 원하는 문장을 설정
+
+3. 언어를 감지한다.
+
+언어번역
+
+1. 번역기를 만든다
+
+2. 번역을 원하는 문장을 설정한다.
+
+3. 번역을 원하는 언어를 설정한다.
+
+4. 번역한다.
+
+---
+
+from googletrans import Translator
+
+translator=Translator()
+
+translator.detect(sentence) : 언어 감지
+
+.lang : 무슨 언어인지
+
+.translate(text,dest,src) : (번역을 원하는 문장, 어떤 언어로 번역할 것인지, 소스 텍스트(생략가능) )
+
+.text를 사용해 결과 출력
