@@ -24,7 +24,14 @@ print(datetime.today().strftime("%Y년 %m월 %d일의 실시간 검색어 순위
 
 search_rank_file.write(str(rank)+"위:"+result.get_text()+"\n") : 파일에 쓰는 작업
 
-headers : 우린 로봇이 아니야
+headers : 우린 로봇이 아니야 알려주는
 
 headers=headers
 
+
+
+API = application programming interface
+
+api를 사용한다 :  누군가 만들어 놓은 기능을 사용한다.
+
+api key : 누가 사용하는지 전달해주는 원하는 데이터 얻을 수 있게
