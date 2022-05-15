@@ -72,3 +72,27 @@ translator.detect(sentence) : 언어 감지
 .translate(text,dest,src) : (번역을 원하는 문장, 어떤 언어로 번역할 것인지, 소스 텍스트(생략가능) )
 
 .text를 사용해 결과 출력
+
+--- 
+
+SMTP : 간단하게 메일을 보내기 위한 약속
+
+IMAP을 허용해줘야한다
+
+1. SMTP 메일 서버를 연결한다.
+2. SMTP 메일 서버에 로그인한다.
+3. SMTP 메일 서버로 메일을 보낸다.
+
+---
+
+MIME 전자우편을 위한 인터넷 표준
+
+1. 이메일을 만든다.
+2. 이메일에 내용을 담는다.
+3. 발신자, 수신자를 설정한다.
+
+Header : 제목 from to 
+
+with open("codelion.png","rb") as image:
+    image_file = image.read()
+close문 없이 사용가능
