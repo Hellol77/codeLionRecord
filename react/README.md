@@ -38,12 +38,19 @@ js는 명령형 : 어떻게 만들지 방법을 명령
   defaultProps : 기본값 설정
   부모 컴포넌트로부터 자녀 컴포넌트에 데이터 등을 전달
 - ### state
+
   useState라는 함수를 통해 해당 컴포넌트 내부에서 데이터 전달
-  
+
   변경 가능
-  
+
   배열의 첫 번째 원소에는 현재 상태 저장 배열의 두번째 원소에는 상태를 바꿔주는 setter 함수
+
+- ### MPA(Multiple Page Application)
+  단점 : 상태 유지의 어려움, 불필요한 로딩
+- ### SPA(Single Page Application) - React
+  기존 페이지를 수정 , 한개의 페이지로 구성
   
+  다른 주소의 다른 화면을 보여주는 것 : 라우팅
 - ### map함수
 
 - ### useEffect함수
